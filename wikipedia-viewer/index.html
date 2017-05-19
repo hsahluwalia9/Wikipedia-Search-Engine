@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="wikiApp" class="container-fluid">
+   <h1 class="text-center">Wikipedia Search Engine</h1>
+  <div class="text-center">
+  <img id="wikiLogo" src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg">
+  </div>
+  <br>
+  <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" id="randomArticle"><h4 class="text-center">Click here for a Random Article</h4></a>
+  <div class="text-center" id="searchContainer">
+      <input class="form-control" type="text" id="searchQuery" placeholder="Search Articles">
+      <button class="btn-primary" id="submit">Search</button>
+      <br>
+    
+  </div>
+    <ul id="content">
+    </ul>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+#wikiApp{
+  height:100vh;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+#wikiLogo{
+  width: 15%;
+}
+
+#searchQuery{
+  width: 25%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 1%;
+}
+
+ul{
+  margin-top: 2%;
+}
+ul li{
+  list-style: none;
+  background-color: #F5F5DC;
+  padding: 1%;
+}
